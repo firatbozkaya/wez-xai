@@ -1,0 +1,3 @@
+classifier,AUROC_mean,AUROC_std,AUPRC_mean,AUPRC_std,Brier_mean
+LogReg,0.9642,0.0092,0.9986,0.0003,0.0745
+EBM-Classifier,0.9863,0.0073,0.9995,0.0003,0.0181

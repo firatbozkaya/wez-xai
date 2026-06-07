@@ -1,0 +1,34 @@
+[project]
+name = "wez-xai"
+version = "0.1.0"
+description = "Explainable AI for Weapon Engagement Zone Prediction in BVR Air Combat"
+authors = [{ name = "Firat Bozkaya" }]
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26,<2.3",
+    "scipy>=1.13",
+    "scikit-learn>=1.5",
+    "xgboost>=2.1",
+    "interpret>=0.6",
+    "shap>=0.46",
+    "lime>=0.2.0.1",
+    "PyALE>=1.2",
+    "mapie>=0.9",
+    "dice-ml>=0.11",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "jupyter>=1.0",
+    "jupytext>=1.16",
+    "pyarrow>=17.0",
+    "pytest>=8.0",
+    "tqdm>=4.66",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

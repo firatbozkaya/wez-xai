@@ -1,0 +1,15 @@
+,mean_abs_shap
+abs_aspect,4.8766546
+BL_Alt,1.9216901
+aspect_cos,1.1431578
+alt_mean,1.0224061
+rad,1.000456
+RD_Hdg,0.73519635
+speed_mean,0.56286675
+RD_Alt,0.40478024
+BL_Speed,0.31993034
+RD_Speed,0.28637892
+speed_diff,0.26105657
+alt_diff,0.13662624
+aspect_sin,0.107299194
+aspect_angle,0.09657759

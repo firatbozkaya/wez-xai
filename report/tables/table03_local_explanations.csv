@@ -1,0 +1,4 @@
+archetype,test_idx,y_true,y_pred,abs_error,LIME_top1,SHAP_top1,top1_agree,Spearman_top3,Spearman_top5,LIME_top1_value,LIME_top1_std_5seed,SHAP_top1_value
+mary (head-on),197,43.2422,40.1975,3.0447,abs_aspect,abs_aspect,True,1.0000,0.8286,6.0709,0.0171,10.8859
+john (tail-chase),484,1.0547,0.4005,0.6541,abs_aspect,abs_aspect,True,1.0000,0.9429,5.8334,0.0322,-7.8686
+eve   (worst-case),89,21.0938,29.4628,8.3691,abs_aspect,abs_aspect,True,1.0000,0.9000,6.0882,0.0383,11.4238

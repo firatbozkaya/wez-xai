@@ -1,0 +1,11 @@
+feature_a,feature_b,mean_abs_interaction
+abs_aspect,speed_mean,0.2112
+rad,abs_aspect,0.1435
+rad,RD_Hdg,0.1008
+BL_Alt,abs_aspect,0.0952
+abs_aspect,alt_mean,0.0905
+RD_Alt,abs_aspect,0.0898
+abs_aspect,speed_diff,0.0868
+rad,BL_Alt,0.0763
+rad,aspect_sin,0.0707
+RD_Hdg,speed_diff,0.0677

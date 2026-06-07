@@ -1,0 +1,7 @@
+feature,physics_expected_sign,actual_spearman,actual_sign,audit_pass
+abs_aspect,1,0.9084,1,True
+aspect_cos,-1,-0.9084,-1,True
+BL_Alt,1,0.9343,1,True
+alt_mean,1,0.9580,1,True
+BL_Speed,1,0.9428,1,True
+RD_Speed,-1,-0.9427,-1,True
